@@ -3,3 +3,6 @@ Data/
 
 #Ignore checkpoints
 .ipynb_checkpoints
+
+#Dask workspace
+Project_Codes/01_Data_Cleaning/dask-worker-space/
