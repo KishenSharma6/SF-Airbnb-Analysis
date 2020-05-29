@@ -1,7 +1,13 @@
 EDA
 Ownership
-Who owns the most number of Airbnb listings in SF? Which owners are renting out the entire home/apartment properties?
-	- What insights can you make about these owners? Are they also Super Hosts?
+Who owns the most number of Airbnb properties in SF? Which hosts are the most popular(meaning, who has the most rented listings total)?
+	- Which of these owners are renting out the entire home/apartment properties?
+	- What kinds of properties are these and how do they compare to other hosts
+	- Are these hosts also Super Hosts?
+
+Hosts that only offer long-term rentals(rentals >=28 nights), how do their prices compare to that of the local San Francisco rent? Is Airbnb a possible, more affordable alternative to renting in San Francisco?
+	- Additionally, what kinds of properties are available for long-term rent?
+
 
 Price Predictor
 What features matter the most when it comes setting the rental price? 
