@@ -9,3 +9,6 @@ Project_Codes/01_Data_Cleaning/dask-worker-space/
 
 #Personal to do fiile
 Project_Codes/01_Data_Cleaning/TO DO.txt
+
+#Ignore pycache
+*__pycache__*
