@@ -11,4 +11,5 @@ Project_Codes/01_Data_Cleaning/dask-worker-space/
 Project_Codes/01_Data_Cleaning/TO DO.txt
 
 #Ignore pycache
-*__pycache__*
+Project_Codes/03_Processing/__pycache__/Text_Processors.cpython-37.pyc
+Project_Codes/04_Modeling/__pycache__/Regression_Metrics.cpython-36.pyc
