@@ -1,3 +1,7 @@
+from gensim.models import LdaMulticore
+from gensim.models.coherencemodel import CoherenceModel
+
+
 def coherence_value_calculator(dictionary, corpus, texts, limit, start=2, step=3, coherence = 'c_v'):
     """
     Compute coherence score for various number of topics
@@ -17,7 +21,7 @@ def coherence_value_calculator(dictionary, corpus, texts, limit, start=2, step=3
     coherence_values = []
     model_list = []
     for num_topics in range(start, limit, step):
-        model=LdaModel(corpus=corpus, id2word=dictionary, num_topics=num_topics)
+        model=LdaMulticore(corpus=corpus, id2word=dictionary, num_topics=num_topics, workers =3)
         model_list.append(model)
         coherencemodel = CoherenceModel(model=model, texts=texts, dictionary=dictionary, coherence=coherence)
         coherence_values.append(coherencemodel.get_coherence())
